@@ -1,0 +1,20 @@
+body {
+  display: flex;
+  width: 90vw;
+  height: 90vh;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+h1 {
+  font-weight: bold;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+canvas {
+  background-image: url(./background.png);
+  background-size: cover;
+  background-position: right;
+  filter: grayscale(30%) brightness(100%) blur(0px);
+}
